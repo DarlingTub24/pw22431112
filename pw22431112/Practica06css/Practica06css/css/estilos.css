@@ -1,0 +1,216 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+    font-family: sans-serif;
+}
+
+header nav{
+    background: black;
+    color: white;
+}
+
+header nav img{
+    width: 38px;
+    bottom: 84px;
+    float: left;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+
+header nav form input{
+    border-radius: 5px;
+    color: white;
+    border-width: 0.5px;
+}
+
+#input1{
+    background-color: black;
+    padding: 7px 13px;
+    border-color: white;
+}
+
+#input2{
+    background-color: rgb(40, 115, 201);
+    padding: 7px 16px;
+    border-color: rgb(40, 115, 201);
+    
+}
+
+header section{
+    background-color: rgb(218, 219, 241);
+
+}
+
+
+footer{
+    background-color: black;
+}
+footer span{
+    padding-bottom: 100px;
+}
+footer li{
+    color:white;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.Contenedor4{
+    display: grid;
+    grid-template-columns: 45px 350px 350px 250px 10px;
+    grid-template-rows: 15px 40px 5px;
+}
+.ElementoC{
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+
+    
+}
+.ElementoD{
+    grid-column: 4/5 ;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+
+
+.Contenedor3{
+    display: grid;
+    grid-template-columns: 250px 500px 10px;
+    grid-template-rows: 60px 50px 15px 50px 40px;
+}
+.ElementoA{
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+    text-align: center;
+}
+.ElementoB{
+    grid-column: 2/3 ;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+#input3{
+width: 440px;
+height: 35px;
+}
+
+#Section1 article img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.conteneTexto{
+
+}
+
+
+.Contenedor1{
+    display: grid;
+    grid-template-columns: 100px 380px 50px 380px 10px;
+    grid-template-rows: 90px 150px 150px 150px 40px;
+}
+
+    .Elemento1{
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+
+    }
+    .Elemento2{
+        grid-column: 4/5 ;
+        grid-row: 2/3;
+    }
+    
+    .Elemento3{
+        grid-column: 2/3 ;
+        grid-row: 3/4;
+    }
+    
+    .Elemento4{
+        grid-column: 4/5 ;
+        grid-row: 3/4;
+ 
+    }
+    .Elemento5{
+        grid-column: 2/3 ;
+        grid-row: 4/5;
+ 
+    }
+    
+    .Elemento6{
+        grid-column: 4/5 ;
+        grid-row: 4/5;
+
+    }
+
+.Contenedor2{
+    display: grid;
+    grid-template-columns: 70px 100px 70px 100px 80px 100px 80px 100px 80px  200px;
+    grid-template-rows: 20px 100px 100px 20px;
+}
+
+.Elemento7{
+grid-column: 2/3 ;
+grid-row: 2/3;
+}
+.Elemento8{
+    grid-column: 4/5 ;
+    grid-row: 2/3;
+}
+
+.Elemento9{
+    grid-column: 6/7 ;
+    grid-row: 2/3;
+}
+
+.Elemento10{
+    grid-column: 8/9 ;
+    grid-row: 2/3;
+}
+
+.Elemento11{
+    grid-column: 10/11 ; 
+    grid-row: 3/4;
+}
+
+#Branches{
+    padding-top: 15px;
+}
+#Blog{
+    padding-top: 15px;
+}
+#Twitter{
+    padding-top: 15px;
+}#AboutUs{
+    padding-top: 1cqi;
+}
+
+
+footer img{
+    width: 38px;
+    position: relative;
+    left: -10px;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.LetraGrande{
+    font-size: 45px;
+}
+
+.ColorBlanco{
+    color: white;
+}
+
+.letraChica{
+    font-size: 12px;
+}
+.ColorAzul{
+ color: rgb(26, 73, 173);
+}
